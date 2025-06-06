@@ -4,7 +4,6 @@
 @theme {
   --font-poppins: "Poppins", sans-serif;
 }
-
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -13,6 +12,7 @@
   --tertiary: #576d69;
   --quaternary: #40514e;
   --quinary: #293533;
+  --sextary: #edfffc;
 }
 
 @theme inline {

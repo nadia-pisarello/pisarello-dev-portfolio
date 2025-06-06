@@ -2,16 +2,13 @@ export default function About() {
   return (
     <section
       id="about"
-      className="max-w-4xl px-6 mx-auto flex flex-col items-center bg-white dark:bg-neutral-800"
+      className="p-8 pb-12 mx-auto flex flex-col items-center inset-shadow-sm bg-[color:var(--sextary)] dark:bg-neutral-800"
     >
-      <h2 className="text-4xl lg:text-6xl font-bold text-center w-full p-5">
+      <h2 className="text-4xl lg:text-6xl text-gray-400 font-bold text-center w-full px-8 pb-6 text-stroke">
         About Me
       </h2>
-      <div className="grid md:grid-cols-2 gap-10 max-w-4xl p-6 justify-center ">
-        <article
-          id="intro"
-          className="items-center shadow-emerald-500 shadow-sm rounded-lg p-5"
-        >
+      <div className="grid md:grid-cols-2 gap-10 max-w-4xl p-10 justify-center bg-white rounded-3xl drop-shadow-md drop-shadow-[color:var(--secondary)]/20">
+        <article id="intro" className="items-center shadow-sm rounded-lg p-5">
           <p className="flex flex-col items-center">
             <img
               src="nakamaStack.png"
@@ -25,7 +22,7 @@ export default function About() {
         </article>
         <article
           id="philosophy"
-          className="items-center shadow-emerald-500 shadow-sm rounded-lg p-5"
+          className="items-center shadow-sm rounded-lg p-5"
         >
           <p className="flex flex-col items-center">
             <img
@@ -38,10 +35,7 @@ export default function About() {
             make all the difference in this ever-evolving world.
           </p>
         </article>
-        <article
-          id="stack"
-          className="items-center shadow-emerald-500 shadow-sm rounded-lg p-5"
-        >
+        <article id="stack" className="items-center shadow-sm rounded-lg p-5">
           <p className="flex flex-col items-center">
             <img
               src="nakamaStack.png"
@@ -58,7 +52,7 @@ export default function About() {
         </article>
         <article
           id="collaboration"
-          className="items-center shadow-emerald-500 shadow-sm rounded-lg p-5"
+          className="items-center shadow-sm rounded-lg p-5"
         >
           <p className="flex flex-col items-center">
             <img
@@ -75,7 +69,7 @@ export default function About() {
         </article>
         <article
           id="goals-future "
-          className="items-center shadow-emerald-500 shadow-sm rounded-lg p-5"
+          className="items-center shadow-sm rounded-lg p-5"
         >
           <p className="flex flex-col items-center">
             <img
