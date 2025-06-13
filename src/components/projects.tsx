@@ -1,6 +1,9 @@
 export default function Projects() {
   return (
-    <section id="projects" className="p-8 pb-12 mx-auto px-4 shadow-sm">
+    <section
+      id="projects"
+      className="p-8 pb-12 mx-auto px-4 shadow-sm  dark:bg-neutral-800"
+    >
       <div className="flex flex-col gap-4 items-center justify-items-center w-full">
         <h2 className="text-4xl lg:text-6xl font-bold text-center w-full px-8 pb-6">
           Projects

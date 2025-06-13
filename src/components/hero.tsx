@@ -1,6 +1,9 @@
 export default function Hero() {
   return (
-    <section id="home" className="pt-5 px-4 max-w-4xl mx-auto">
+    <section
+      id="home"
+      className="pt-5 px-4 max-w-4xl mx-auto  dark:bg-neutral-800"
+    >
       <div className="flex flex-col gap-4 items-center justify-items-center w-full">
         <img
           src="nakadev.svg"
